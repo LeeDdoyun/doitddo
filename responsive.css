@@ -1,0 +1,142 @@
+
+@media (max-width: 768px) {
+/* ################# Section : home #################  */
+.home-inner{
+    height: 100vh;
+}
+.welcome-text{
+    width: 100%;
+    transform: translate(-50%,-50%) scale(0.7);
+}
+.home-heading{
+    left: 20px;
+}
+.home-heading span{
+    font-size: 50px;
+}
+.home-heading span p{
+    font-size: 12px;
+}
+.home-circle {
+    right: 20px;
+    bottom: 20px;
+    width: 200px; height: 200px;
+}
+.home-circle img{
+    width: 200px; height: 200px;
+}
+
+/* ################# Section : about #################  */
+.about-inner {
+    width: 100%;
+    height: auto;
+}
+.about-items{
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+}
+.about-items h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.about-items p{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.about-resume img{
+    height: 200px;
+}
+.about-resume {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    
+}
+
+/* ################# Section : awards ################# */
+.awards-inner{
+    height: auto;
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+}
+.awards-title{
+    
+}
+.awards-title h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.awards-cont{
+    display: flex;
+    flex-direction: column;
+}
+.awards-cont h3{
+    font-size: 20px;
+}
+.awards-cont p{
+    font-size: 12px;
+}
+.awards-bottom{
+    width: 95%;
+}
+
+/* ################# Section : plan ################# */
+.plan-inner{
+    height: auto;
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+}
+.plan-title h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/* ################# Section : project ################# */
+.project-inner{
+    height: auto;
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+}
+.project-title h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.project-list {
+    margin-top: 40px;
+}
+.history-text h4{
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* ################# Section : contact #################  */
+.contact-inner {
+    height: auto;
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+}
+.send-info h2{
+    width: 100%; height: 100%;
+    color: var(--main-blue);
+    font-size: 30px;
+    padding: 20px;
+}
+.send-info p{
+    text-align: center;
+    color: var(--title);
+    margin-top: 30px;
+    font-size: 12px;
+}
+.channel-info h3{
+    font-size: 16px;
+}
+
+}

@@ -1,0 +1,52 @@
+/* Reset CSS */
+
+:root{
+    --title:#222;
+    --main-blue: #1b30af;
+    --sub-purple: #755562;
+    --light-gray: #999;
+}
+a{
+    text-decoration: none;
+}
+
+
+.uiux-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.uiux-wrap .uiux-main{}
+.uiux-wrap .uiux-main img{
+    width: 100%;
+}
+.uiux-wrap .mannam-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.uiux-wrap .mannam-btn .fa-solid{
+    font-size: 20px;
+}
+.uiux-wrap .mannam-btn .fas{
+    font-size: 18px;
+}
+.uiux-wrap .mannam-btn button{
+    background-color: #8775eb;
+    border: none;
+    width: 160px; height: 45px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+.uiux-wrap .mannam-btn button a{
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    font-weight:300;
+}
+.uiux-wrap .uiux-cont{}
+.uiux-wrap .uiux-cont img{
+    width: 100%; 
+    background-position: 50%;
+    background-size: cover;
+}
